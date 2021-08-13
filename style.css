@@ -1,0 +1,194 @@
+#logback{
+    background-image: url("sunsetback.jpg");
+
+}
+
+#signback{
+    background-image: url("mountainback.jpg");
+
+}
+
+#back2{
+    background-image: url("mountainback.jpg");
+}
+
+#back3{
+    height: 100%;
+    width: 100%;
+    background-image: url("roombackextra.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form1{
+	width: 380px;
+	height: 560px;
+	position: center;
+	margin: 3% auto;
+	background: #fff;
+	padding: 2px;
+	overflow: hidden;
+    border-style: ridge;
+    border-color:rgb(140, 162, 221);
+    border-width: 10px;
+    box-shadow: -10px 10px 5px rgb(62, 70, 82);
+	
+}
+
+.form{
+	width: 380px;
+	height: 380px;
+	position: center;
+	margin: 3% auto;
+	background: #fff;
+	padding: 2px;
+	overflow: hidden;
+    border-style: ridge;
+    border-color:tomato;
+    border-width: 10px;
+    box-shadow: -10px 10px 5px rgb(62, 70, 82);
+
+}
+
+.loghead{
+    font-size:40px;
+    font-family: 'Andada Pro', serif;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+
+}
+
+.header{
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+
+
+#logusername, #signusername{
+    margin-top: 5px;
+}
+
+#logpassword, #signpassword{
+    margin-top: 10px;
+}
+
+#wordpass, #signemail{
+    margin-top: 10px;
+}
+
+#signup{
+margin-top: 20px;
+}
+
+.loginbtn{
+    border-radius: 100px;
+    border-style: inset;
+    border-color: salmon;
+    border-width: 5px;
+}
+
+.signbtn{
+    border-radius: 100px;
+    border-style: inset;
+    border-color: rgba(138, 183, 231, 0.9);
+    border-width: 5px;
+}
+
+.login:hover, .login1:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50px;
+}
+
+.slogan{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.head{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#checkie{
+    margin: 0px 10px 10px 0;
+}
+
+#term{
+    color: #777;
+	font-size: 15px;
+	bottom: 68px;
+}
+
+.color_white{
+    color: rgb(25, 110, 102);
+
+}
+
+#account{
+    width:80px;
+}
+
+.details{
+    margin-left: 20px;
+}
+
+#accountword{
+    margin-left: 10px;
+}
+
+#accountimg{
+    width: 80px;
+}
+
+#accountstuff{
+    margin-top:30px;
+    font-size: 20px;
+    color: white;
+}
+
+#userlabelthing{
+    font-size: 50px;
+}
+
+#backbutton{
+    border-style: outset;
+    border-color: rgb(67, 230, 213);
+    border-width: 8px;
+}
+
+#acusername, #acpassword, #acgender, #acemail{
+    margin-left: 5%;
+}
+
+#female{
+    margin-left: 12px;
+}
+
+#male{
+    margin-right: 4px;
+}
+
+#genlabel{
+    font-size: 20px;
+}
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+

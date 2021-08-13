@@ -1,0 +1,68 @@
+
+<html>
+    <head>
+        <title>Qwitter-Signup</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="login.js"></script>
+    </head>
+<body id="signback">
+     <center>
+         <h1 class="header head">Qwitter<sup><img class="logo" src="moreowl.jpg"></sup></h1>
+         <h3 class="text-capitalize slogan">Where you quit twitter and get qwitter </h3>
+        <div class="form1">
+         <label class="loghead">Signup</label>
+         <div>
+             <form class="input-group">
+<input class="input-field" placeholder="Enter UserName" id="signusername" required>
+<input type="email" class="input-field" placeholder="Enter Email" id="signemail" required>
+<input type="text" class="input-field" placeholder="Enter Password" id="wordpass" required>
+<input type="password" class="input-field" placeholder="Confirm Password" id="signpassword" required>
+<br>
+<br>
+<label id="genlabel">Gender:
+</label>
+<br>
+<!--write radios for gender-->
+<input type="radio" id="male1" name="genders" value="male">Male</input>
+<br>
+<input type="radio" id="female1" name="genders" value="female">Female</input>
+<br>
+<input type="radio" id="other1" name="genders" value="other">Other</input>
+<br>
+<br>
+<input type="checkbox" id="checkie" required><span id="term">I agree to the terms & conditions</span>
+<br>
+<br>
+<button class="btn btn-info signbtn" onclick="signup()" style="width:40%">Sign Up!</button>
+
+             </form>
+
+         </div>
+
+
+
+        </div>
+
+
+    </center>
+
+
+
+
+    </body>
+</html>
